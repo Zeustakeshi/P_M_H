@@ -306,12 +306,6 @@ function dem_nguoc (hour_now, munite_now, second_now){
 }
 
 function check_sign_in (){
-    let choose = confirm("Bạn phải đăng nhập để sử dụng tính năng này")
-    if(choose == true){
-        window.location.replace("https://zeustakeshi.github.io/sign_in-PMH_Block/")
-        return true
-    }else{
-        return false
-    }
+    return true
     
 }
